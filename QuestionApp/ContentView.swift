@@ -15,7 +15,7 @@ struct ContentView: View {
                 .fontWeight(.semibold)
             Spacer()
                 .frame(height: 50)
-            VStack() {
+            VStack(spacing: 20.0) {
                 Text("How well do you know your fellow KWK scholar?")
                     .multilineTextAlignment(.center)
                 NavigationLink(destination: View2()) {
